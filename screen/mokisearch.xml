@@ -1,0 +1,15 @@
+<screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-2.1.xsd"
+>
+
+    <!-- To test this try something like:
+    NOTE: "am9obi5kb2U6bW9xdWk=" is the Base64 encoded String "john.doe:moqui"
+    curl -X GET -H "Authorization: Basic am9obi5kb2U6bW9xdWk=" http://localhost:8080/apps/example/ExampleEntity/TEST2
+    curl -X GET -u john.doe:moqui http://localhost:8080/apps/example/ExampleEntity/TEST2
+    curl -X GET -H "Authorization: Basic am9obi5kb2U6bW9xdWk=" http://localhost:8080/apps/example/ExampleEntity?exampleId=TEST2
+    -->
+<widgets>
+<label type="h1" text="Hello World!"/>
+</widgets>
+
+</screen>
